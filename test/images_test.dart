@@ -6,7 +6,10 @@ import 'package:e_commerce/resources/resources.dart';
 void main() {
   test('images assets test', () {
     expect(File(Images.books).existsSync(), true);
+    expect(File(Images.cancel).existsSync(), true);
+    expect(File(Images.chevronBottom).existsSync(), true);
     expect(File(Images.computer).existsSync(), true);
+    expect(File(Images.favorite).existsSync(), true);
     expect(File(Images.favoriteFill).existsSync(), true);
     expect(File(Images.favoriteOutline).existsSync(), true);
     expect(File(Images.filter).existsSync(), true);
@@ -15,6 +18,7 @@ void main() {
     expect(File(Images.person).existsSync(), true);
     expect(File(Images.phone).existsSync(), true);
     expect(File(Images.qr).existsSync(), true);
+    expect(File(Images.search).existsSync(), true);
     expect(File(Images.shop).existsSync(), true);
   });
 }
