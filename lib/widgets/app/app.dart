@@ -2,6 +2,8 @@ import 'package:e_commerce/Theme/app_colors.dart';
 import 'package:e_commerce/widgets/home_store/home_store_widget.dart';
 import 'package:flutter/material.dart';
 
+import '../phone_details/phone_details_widget.dart';
+
 class App extends StatelessWidget {
   const App({Key? key}) : super(key: key);
 
@@ -10,7 +12,8 @@ class App extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       routes: {
-        '/home_store': (context) => HomeStoreWidget(),
+        '/home_store': (context) => const HomeStoreWidget(),
+        '/phone/details': (context) => const PhoneDetailsWidget(),
       },
       initialRoute: '/home_store',
       theme: ThemeData(
