@@ -147,7 +147,7 @@ class _CardHotSalesItemWidget extends StatelessWidget {
                           fontWeight: FontWeight.w400,
                           color: Colors.white),
                     ),
-                    const SizedBox(height: 26),
+                    const Spacer(),
                     const _ButtonCardHotSalesWidget()
                   ],
                 ),
